@@ -3,7 +3,6 @@
 # the first one, “fields,” refers to a file called
 # “sections/fields.md.”
 personal
-contact
 education
 publications
 experience
