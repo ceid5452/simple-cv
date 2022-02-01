@@ -3,7 +3,7 @@
 ############################
 #
 # Required value:
-name: HFiliopoulou Dionysia # full name
+name: Filiopoulou Dionysia # full name
 #
 # Optional values: 
 # These can be commented out or deleted.
@@ -13,7 +13,7 @@ citizenships:
 - Greece
 - Patras
 address:
-- Patras
+- Patras, Greece
 - P. Nirvana Str
 - P.C. 26443
 telephone: +30 6999999999
