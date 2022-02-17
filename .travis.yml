@@ -1,4 +1,15 @@
- deploy:
+language: generic
+sudo: required
+dist: precise
+before_install:
+- sudo apt-get update
+- mkdir deploy
+script:
+- sh process.sh
+before_deploy:
+- sudo apt-get update
+- cd deploy
+deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
