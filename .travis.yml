@@ -1,4 +1,8 @@
-language: ruby
-rvm:
- - 3.1
- - jruby
+ deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  on:
+    branch: main
+  target_branch: gh-pages
