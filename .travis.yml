@@ -12,7 +12,7 @@ before_deploy:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN
+  github_token: My bash script
   keep_history: true
   on:
     branch: main
